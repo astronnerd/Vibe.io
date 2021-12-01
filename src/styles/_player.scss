@@ -1,0 +1,101 @@
+.player{
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time-control {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input {
+        width: 100%;
+        // padding: 1rem 0rem;
+        -webkit-appearance: none;
+        background: transparent;
+        cursor: pointer;
+    }
+    p {
+        padding: 1rem;
+    }
+}
+
+.play-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 50%;
+}
+
+.play, .skip-back, .skip-forward {
+    cursor: pointer;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+}
+
+input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+}
+
+.track {
+    background: #01baef;
+    width: 100%;
+    height: 1rem;
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.animate-track {
+    background: #d3d5d7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(0%);
+    pointer-events: none;
+}
+
+// Mobile layout
+@media screen and (max-width: 540px) {
+    .time-control {
+        width: 90%;
+    }
+    .play-control {
+        width: 60%;
+    }
+}
+// iPad layout
+@media (min-width: 768px) and (max-width: 1024px) {
+    .time-control {
+        width: 85%;
+    }
+    .play-control {
+        width: 60%;
+    }
+}
+// iPad Pro and other 13 inch screen
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .time-control {
+        width: 80%;
+    }
+    .play-control {
+        width: 60%;
+        font-size: 2rem;
+    }
+}

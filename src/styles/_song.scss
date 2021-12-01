@@ -1,0 +1,59 @@
+.song-container{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 20%;
+        border-radius: 50%;
+        box-shadow: 0px 5px 20px rgb(71, 71, 71);
+        -webkit-animation:spin 13s linear infinite;
+        -moz-animation:spin 13s linear infinite;
+        animation:spin 13s linear infinite;
+    }
+    h2{
+        padding: 3rem 1rem 1rem 1rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+}
+// Mobile layout
+@media screen and (max-width: 540px) {
+    .song-container {
+        img {
+            width: 60%;
+            box-shadow: 0px 5px 20px rgb(71, 71, 71);
+            -webkit-animation:spin 13s linear infinite;
+            -moz-animation:spin 13s linear infinite;
+            animation:spin 13s linear infinite;
+        }
+    }
+}
+// iPad layout
+@media (min-width: 768px) and (max-width: 1024px) {
+    .song-container {
+        img {
+            width: 54%;
+            box-shadow: 0px 5px 20px rgb(71, 71, 71);
+            -webkit-animation:spin 13s linear infinite;
+            -moz-animation:spin 13s linear infinite;
+            animation:spin 13s linear infinite;
+        }
+    }
+}
+// iPad Pro and other 13 inch screen
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .song-container {
+        img {
+            width: 60%;
+            -webkit-animation:spin 13s linear infinite;
+            -moz-animation:spin 13s linear infinite;
+            animation:spin 13s linear infinite;
+        }
+    }
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

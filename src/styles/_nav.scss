@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    button {
+        background: transparent;
+        outline: none;
+        width: 10%;
+        font-size: 20px;
+        cursor: pointer;
+        border: 2px solid rgb(65, 65, 65);
+        border-radius: 4px;
+        padding: 0.6rem;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 0px 2px 5px rgb(71, 71, 71);
+        &:hover {
+            background: rgb(241, 72, 114);
+            color: white;
+        }
+    }
+}
+
+.header-navbar {
+
+    @include flex();
+    font-family: 'Varela Round', sans-serif;
+
+    h1 {
+        font-size: 2rem;
+        margin-left: 8px;
+    }
+
+    img {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+
+#icon {
+    margin-left: 5px;
+}
+
+// Mobile layout
+@media screen and (max-width: 540px) {
+    nav {
+        button {
+            z-index: 10;
+            width: 35%;
+            font-size: 17px;
+
+            &:active {
+              outline: none;  
+            }
+        }
+    }
+    .header-navbar {
+
+        @include flex();
+        font-family: 'Varela Round', sans-serif;
+    
+        h1 {
+            font-size: 1.4rem;
+            margin-left: 6px;
+        }
+    
+        img {
+            width: 4rem;
+            height: 4rem;
+        }
+    }
+}
+// iPad layout
+@media (min-width: 768px) and (max-width: 1024px) {
+    nav {
+        button {
+            z-index: 10;
+            width: 28%;
+            font-size: 22px;
+
+            &:active {
+              outline: none;  
+            }
+        }
+    }
+    .header-navbar {
+
+        @include flex();
+        font-family: 'Varela Round', sans-serif;
+    
+        h1 {
+            font-size: 1.7rem;
+            margin-left: 6px;
+        }
+    
+        img {
+            width: 6rem;
+            height: 6rem;
+        }
+    }
+}
+// iPad Pro and other 13 inch screen
+@media (min-width: 1024px) and (max-width: 1366px) {
+    nav {
+        button {
+            z-index: 10;
+            width: 20%;
+            font-size: 25px;
+
+            &:active {
+              outline: none;  
+            }
+        }
+    }
+    .header-navbar {
+
+    @include flex();
+    font-family: 'Varela Round', sans-serif;
+
+    h1 {
+        font-size: 2rem;
+        margin-left: 8px;
+    }
+
+    img {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+}

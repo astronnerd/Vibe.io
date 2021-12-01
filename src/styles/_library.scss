@@ -1,0 +1,92 @@
+.library {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 26rem;
+    height: 100%;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    overflow: scroll;
+    transform: translateX(-100%);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    opacity: 0;
+
+    h2 {
+        padding: 2rem;
+    }
+}
+
+.library-song {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem 1rem 2rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+    img {
+        width: 40%;
+        border-radius: 20%;
+    }
+    &:hover {
+        background-color: #51BAEA;
+    }
+}
+
+.song-description {
+    padding-left: 1rem;
+    h3 {
+        font-size: 1rem;
+    }
+    h4 {
+        font-size: 0.7rem;
+    }
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+*::-webkit-scrollbar {
+    width: 5px;
+}
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+    background: rgba(155, 155, 155, 0.5);
+    border-radius: 20px;
+    border: transparent;
+}
+
+.selected {
+    background: #51BAEA;
+    div {
+        h3 {
+            font-size: 1.6rem;
+            color: #ffffff;
+        }
+        h4 {
+            font-size: 0.9rem;
+            color: #ffffff;
+        }
+    }
+    
+}
+
+.active-library {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+// Mobile layout
+@media screen and (max-width: 540px) {
+   .library {
+       width: 100%;
+   }
+}
+// iPad layout
+@media (min-width: 768px) and (max-width: 1024px) {
+    .library {
+        width: 38%;
+    }
+}
