@@ -7,7 +7,7 @@
   - Mobile & Tablet compatible!
 
 ## Features
-All the basic features of a music player are supported
+#### All the basic features of a music player are supported
     - progress bar
     - pause & play
     - Skip to next/previous in queue
