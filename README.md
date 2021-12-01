@@ -2,9 +2,9 @@
 <h3 align="center"><p>Vibe here 🎶</p></h3>
 
 ## About
-    - Build using HTML, SASS-CSS & ReactJs
-    - Range of productivity lo-fi's, adding to the vibe of the app ✨, which are being fetching from a free music site called [Chill Hop](chillhop.com).
-    - Mobile & Tablet compatible!
+  - Build using HTML, SASS-CSS & ReactJs
+  - Range of productivity lo-fi's, adding to the vibe of the app ✨, which are being fetching from a free music site called [Chill Hop](chillhop.com).
+  - Mobile & Tablet compatible!
 
 ## Features
 All the basic features of a music player are supported
