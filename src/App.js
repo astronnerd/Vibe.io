@@ -71,13 +71,16 @@ function App() {
         setSongs={setSongs}
         libraryStatus={libraryStatus}
       />
-        <audio 
-            onTimeUpdate={timeUpdateHandler}
-            onLoadedMetadata={timeUpdateHandler} 
-            ref={audioRef} 
-            src={currentSong.audio}
-            onEnded={songEndHandler}
-        ></audio>
+      <audio 
+          onTimeUpdate={timeUpdateHandler}
+          onLoadedMetadata={timeUpdateHandler} 
+          ref={audioRef} 
+          src={currentSong.audio}
+          onEnded={songEndHandler}
+      />
+      <footer id="footer">
+        <b>Developed with</b> ❤️ <b>by Parth Sachan</b>
+      </footer>
     </div>
     
   );
