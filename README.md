@@ -1,16 +1,21 @@
-# Waves Music App
-The Waves music app is a music player with a range of songs to play build with react application which is also mobile first and tablet first.
+<h1 align="center"><p>Vibe.io - Music App Idea</p></h1>
+<h3 align="center"><p>Vibe here 🎶</p></h3>
 
-This app has a quite amount of music to listen to fetching from a free music site. I created a .js file and made my own JSON data, so no fetch api has been used but async and await has been used to include delay in the fetching of data. 
+## About
+    - Build using HTML, SASS-CSS & ReactJs
+    - Range of productivity lo-fi's, adding to the vibe of the app ✨, which are being fetching from a free music site called [Chill Hop](chillhop.com).
+    - Mobile & Tablet compatible!
 
-This app is styled using SASS and everything used here is custom css, thus no framework has been used. 
-It has all the basic functionalities of a music player like skip-backward, skip-forward, pause, play and select from the song library.
+## Features
+All the basic features of a music player are supported
+    - progress bar
+    - pause & play
+    - Skip to next/previous in queue
+    - Playlist/Library showing list of available songs
+    - Rotating cover animation!
 
-Huge thanks to @devlopedByEd from whose videos I learned to built this app.
+## App Snaps
+<img src="./snap01.png" alt="music player">
+<img src="./snap02.png" alt="playlist">
 
-[Live Demo](https://festive-borg-b149e4.netlify.app/)
-
-<img src="./waves_desktop (2).png" alt="the screenshot of the app large screen"/>
-<img src="./waves_mobile (2).png" alt="the screenshot of the app large screen"/>
-
-
+### Keep Vibing 💜
