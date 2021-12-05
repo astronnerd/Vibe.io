@@ -15,7 +15,7 @@
   - Rotating cover animation!
 
 ## App Snaps
-<img src="./snap01.png" alt="music player" align="center">
-<img src="./snap02.png" alt="playlist" align="center">
+<img src="./snap01.png" alt="music player" align="middle">
+<img src="./snap02.png" alt="playlist" align="middle">
 
 ### Keep Vibing 💜
