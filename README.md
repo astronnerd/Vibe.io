@@ -3,7 +3,7 @@
 
 ## About
   - Build using HTML, SASS-CSS & ReactJs
-  - Range of productivity lo-fi's to select from the playlist, adding to the vibe of the app ✨, which are being fetching from a free music site called [Chill Hop](chillhop.com).
+  - Range of productivity lo-fi's to select from the playlist, adding to the vibe of the app ✨, which are being fetching from a free music site called [Chill Hop](https://chillhop.com/).
   - Mobile & Tablet first compatibility!
 
 ## Features
