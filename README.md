@@ -4,7 +4,7 @@
 ## About
   - Build using HTML, SASS-CSS & ReactJs
   - Range of productivity lo-fi's to select from the playlist, adding to the vibe of the app ✨, which are being fetching from a free music site called [Chill Hop](chillhop.com).
-  - Mobile & Tablet compatible!
+  - Mobile & Tablet first compatibility!
 
 ## Features
 #### All the basic features of a music player are supported
